@@ -30,13 +30,6 @@ body {
   width: 100%;
 }
 
-.wrapper-masthead {
-  background-image: url(/images/carbon.png);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position: center bottom; 
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
@@ -159,6 +152,12 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  // Added Custom Backdrop 2020/10/26
+  background-color: #EEEEEE;
+  background-image: url(/images/carbon.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center bottom; 
 }
 
 .masthead {
