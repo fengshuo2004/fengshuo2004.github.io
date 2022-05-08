@@ -4,7 +4,7 @@ title: 关于
 permalink: /about/
 ---
 
-一个在英留学生。会全栈Javascript。2020年六月抱着瞎整的心态用Jekyll Now搭建了这个博客。
+一个在英留学生。会全栈Javascript。2020年六月抱着瞎整的心态用Jekyll Now搭建了这个Github Page博客。
 
 ### 开发历程
 
@@ -16,5 +16,6 @@ permalink: /about/
 
 ### 联系我
 
-电邮：[fengshuo2004@163.com](mailto:fengshuo2004@163.com)
+电邮：<input type="button" value="点击显示" onclick="this.outerHTML='\x66\x65\x6e\x67\x73\x68\x75\x6f\x32\x30\x30\x34\x40\x31\x36\x33\x2e\x63\x6f\x6d'">
+
 QQ：1295099030
