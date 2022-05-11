@@ -3,6 +3,8 @@ layout: post
 title: 关于EOF的那点事
 ---
 
+EOF指的是什么东西？怎么用？能吃吗（bushi）
+
 ## 介绍
 
 初学C++，C语言的程序员在CSDN、SegmentFault上提的最多的问题便是

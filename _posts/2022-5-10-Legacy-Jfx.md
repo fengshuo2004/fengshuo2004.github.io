@@ -1,17 +1,19 @@
 ---
 layout: post
-title: 如何在Debian系Linux下安装Java 8和对应的OpenJFX
+title: 在Debian系Linux下安装JRE8和OpenJFX8
 ---
+
+注：本文适用于想要玩 <span style="color:red">1.12.2及更旧</span> 版本的 <span style="color:red">带模组</span> Minecraft ，并打算使用 <span style="color:red">HMCL</span> 作为游戏启动器的 <span style="color:red">Debian / Deepin</span> 用户
 
 ## 情景重现
 
-在 Debian 10 Buster / Debian 11 Bullseye / Deepin 20.x 等新 Debian 系 Linux 的软件源中，安装 `default-jre` 包实际会安装 `openjdk-11-jre` 。
+在 Debian 10 Buster / Debian 11 Bullseye / Deepin 20.x 等新 Debian 系 Linux 的软件源中，安装 `default-jre` 包实际会安装 `openjdk-11-jre` ，即开源版的 Java 11 运行环境。
 
 众所周知， Minecraft 1.12.2 及以下版本如果安装了 Forge ，就无法用 Java >8 运行。系统中必须装有 Oracle Java 8 或者 OpenJDK 8 才能运行 1.12.2 Forge。
 
 安装 OpenJDK 8 并非难事，一条命令就能搞定。但是我使用的游戏启动器 HMCL 又依赖于 Java FX ，而 Debian 源里的 OpenJFX 只有 Java 11 版本的，不能用于 OpenJDK 8 。
 
-## 教程
+## 解决方法
 
 ### 第一步 — 安装 OpenJDK 8
 
@@ -49,7 +51,7 @@ sudo dpkg -i ./openjfx_8u141-b14-3_deb9u1_amd64.deb
 
 ### 第四步 — 禁止 OpenJFX 被 APT 更新
 
-我们可不想下次更新，系统把咱辛辛苦苦降级的这三个包又升级回 Java 11 的版本，执行以下命令会禁止它们自动更新：
+我们可不想让包管理器在下次更新时，把咱辛辛苦苦降级的这三个软件包又升级回 Java 11 的版本。执行以下命令会禁止它们自动更新：
 
 ```sh
 sudo apt-mark hold openjfx libopenjfx-java libopenjfx-jni
