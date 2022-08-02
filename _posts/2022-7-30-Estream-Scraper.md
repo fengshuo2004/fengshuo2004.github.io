@@ -33,7 +33,7 @@ I've made a script that extracts photo URLs from Planet eStream and another scri
 // @description  Extracts photo URLs from Planet eStream for you to download in batch
 // @author       David Feng
 // @match        https://estream.shrewsbury.org.uk/PL/Default.aspx*
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @icon         https://estream.shrewsbury.org.uk/favicon.ico
 // @grant        none
 // @require      http://danml.com/js/download2.js
 // ==/UserScript==
@@ -56,10 +56,13 @@ I've made a script that extracts photo URLs from Planet eStream and another scri
             if (document.querySelector(".iziToast-capsule") != null) {
                 window.scrapeAbort(intervalID);
             }
-            // Extract the src attribute of the img tag
-            photoURLs.push(document.querySelector("#quickview-image").getAttribute("src"));
-            // Simulate a click on the ">" button
-            document.querySelector("#btnPV9").click();
+            let imgSrc = document.querySelector("#quickview-image").getAttribute("src");
+            if (imgSrc != null){
+                // Extract the src attribute of the img tag
+                photoURLs.push(imgSrc);
+                // Simulate a click on the ">" button
+                document.querySelector("#btnPV9").click();
+            }
         }, delayMs);
         console.log("Scraping started, execute scrapeAbort(" + intervalID.toString() + ") to stop manually");
     }
