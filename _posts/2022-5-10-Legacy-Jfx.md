@@ -15,6 +15,33 @@ title: 在Debian系Linux下安装JRE8和OpenJFX8
 
 ## 解决方法
 
+### 简单的方案
+
+Bellsoft 公司维护着 Liberica 系列产品，其完整版 JDK/JRE 附带 JavaFX。
+下载链接：https://bell-sw.com/pages/downloads/
+
+1. 选择 JDK 8 LTS（也可以选 JDK 11 LTS）
+2. 向下滚动到 Linux 一栏
+3. 确认选择的是 x86
+4. 下拉菜单选择 JRE Full
+5. 右侧点击下载 DEB 包并安装
+
+以上安装方法不经过包管理器，所以 Java 未来不会被 apt upgrade 这类指令自动更新。如果你想要自动更新，建议通过 Bellsoft 的 APT 仓库安装。在命令行中依次执行：
+
+```bash
+wget -q -O - https://download.bell-sw.com/pki/GPG-KEY-bellsoft | sudo apt-key add -
+echo "deb https://apt.bell-sw.com/ stable main" | sudo tee /etc/apt/sources.list.d/bellsoft.list
+sudo apt update
+```
+
+安装 JRE 8 + JFX 请运行 `sudo apt install bellsoft-java8-runtime-full`
+
+安装 JRE 11 + JFX 请运行 `sudo apt install bellsoft-java11-runtime-full`
+
+到此安装结束。另外除了 Bellsoft 的 Liberica，Azul 公司的 [Zulu](https://www.azul.com/downloads/) 也提供捆绑 JavaFX 的版本，但他们的安装包只有tar.gz格式的。
+
+> 🛑 下面的旧版步骤会导致包管理出现依赖问题，请勿继续使用！
+
 ### 第一步 — 安装 OpenJDK 8
 
 打开终端执行：
