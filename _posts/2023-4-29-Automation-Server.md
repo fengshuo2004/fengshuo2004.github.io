@@ -67,11 +67,11 @@ The Automation Server 是一个我的世界 1.18 Forge 服务器。我们使用�
 - [玉 🔍](https://www.mcmod.cn/class/3482.html)
 - [Jade Addons](https://www.mcmod.cn/class/5837.html)
 - [Just A Ore Processing Compatibility Attempt](https://www.mcmod.cn/class/878.html)
-- [通用拼音搜索](https://www.mcmod.cn/class/840.html)
+- [通用拼音搜索](https://www.mcmod.cn/class/840.html) <sup>仅客户端</sup>
 - [JEI物品管理器](https://www.mcmod.cn/class/459.html)
 - [Kiwi 🥝](https://www.mcmod.cn/class/1290.html)
 - [Kotlin for Forge](https://www.mcmod.cn/class/2890.html)
-- [libIPN](https://www.mcmod.cn/class/7713.html)
+- [libIPN](https://www.mcmod.cn/class/7713.html) <sup>仅客户端</sup>
 - [地幔](https://www.mcmod.cn/class/329.html)
 - [通用机械](https://www.mcmod.cn/class/187.html)
 - [通用机械发电机](https://www.mcmod.cn/class/1323.html)
