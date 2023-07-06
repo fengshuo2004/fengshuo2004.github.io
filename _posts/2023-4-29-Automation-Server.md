@@ -5,7 +5,7 @@ title: 欢迎加入The Automation Server！
 
 The Automation Server 是一个我的世界 1.18 Forge 服务器。我们使用自己制作的整合包“The Automation Pack”。这是一个以 Create（机械动力）模组为中心的科技整合包。
 
-<iframe style="width:728px;height:90px;max-width:100%;border:none;display:block;margin:auto" src="https://namemc.com/server/84.46.241.133/embed" width="728" height="90"></iframe>
+<iframe style="width:600px;height:90px;max-width:100%;border:none;display:block;margin:auto" src="https://namemc.com/server/mc.hkconnect.org/embed" width="600" height="90"></iframe>
 
 ## 本服特色
 
