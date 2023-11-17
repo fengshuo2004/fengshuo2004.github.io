@@ -19,7 +19,7 @@ The Automation Server 是一个我的世界 1.18 Forge 服务器。我们使用�
 
 请先加入 Discord 服务器：
 
-<iframe src="https://discord.com/widget?id=1038954994642194465&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<iframe src="https://discord.com/widget?id=599498357072723976&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 ## 模组列表
 

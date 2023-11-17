@@ -3,7 +3,7 @@ layout: post
 title: TheAutomationServer Rules
 ---
 
-Last revised 2023/9/9
+Last revised 2023/9/17
 
 ## General
 
@@ -12,7 +12,8 @@ Last revised 2023/9/9
 3. `@everyone` is used for announcements only, if at all.
 4. English, subsequently Mandarin, are commonly understood.
 5. `keepInventory` is to prevent loss. Do not abuse it as a quick back-to-home method.
-6. You may use alt accounts. A ban on someone affects all their accounts.
+6. PvP on the basis that all parties are willing to participate.
+7. You may use alt accounts. A ban on someone affects all their accounts.
 
 ## Policy towards "lag machines"
 
