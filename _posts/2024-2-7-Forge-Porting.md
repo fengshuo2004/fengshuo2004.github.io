@@ -36,7 +36,3 @@ Component.literal(text);
 ```
 
 文档：[Component ⇗](https://nekoyue.github.io/ForgeJavaDocs-NG/javadoc/1.19.3/net/minecraft/network/chat/Component.html)
-
-</td>
-</tr>
-</table>
