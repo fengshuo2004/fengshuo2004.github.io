@@ -55,4 +55,4 @@ Consult the diagram above for more Shopkeeper Editor usage. **To set the desired
 
 ## Done!
 
-That's it! Have fun!
+That's it! Have fun! If you have further questions, please consult the [Shopkeepers Wiki](https://github.com/Shopkeepers/Shopkeepers-Wiki/wiki) or ask our admins.
