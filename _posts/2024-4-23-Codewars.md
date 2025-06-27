@@ -19,7 +19,7 @@ You are given an array (which will have a length of at least 3, but could be ver
 [160, 3, 1719, 19, 11, 13, -21] --> 160 (the only even number)
 ```
 
-[原题链接](https://www.codewars.com/kata/5526fc09a1bbd946250002dc)
+原题链接：<https://www.codewars.com/kata/5526fc09a1bbd946250002dc>
 
 ## 解
 
@@ -58,7 +58,7 @@ Complete the method/function so that it converts dash/underscore delimited words
 
 `"The_Stealth-Warrior"` gets converted to `"TheStealthWarrior"`
 
-[原题链接](https://www.codewars.com/kata/517abf86da9663f1d2000003)
+原题链接：<https://www.codewars.com/kata/517abf86da9663f1d2000003>
 
 ## 解
 
@@ -106,7 +106,7 @@ Additionally, if the number is negative, return 0.
 
 *Courtesy of projecteuler.net (Problem 1)*
 
-[原题链接](https://www.codewars.com/kata/514b92a657cdc65150000006)
+原题链接：<https://www.codewars.com/kata/514b92a657cdc65150000006>
 
 ## 解
 
@@ -138,7 +138,7 @@ You live in the city of Cartesia where all roads are laid out in a perfect grid.
 
 > Note: you will always receive a valid array containing a random assortment of direction letters ('n', 's', 'e', or 'w' only). It will never give you an empty array (that's not a walk, that's standing still!).
 
-[原题链接](https://www.codewars.com/kata/54da539698b8a2ad76000228)
+原题链接：<https://www.codewars.com/kata/54da539698b8a2ad76000228>
 
 ## 解
 

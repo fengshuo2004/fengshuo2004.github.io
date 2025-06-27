@@ -28,11 +28,11 @@ The Automation Server 是一个我的世界 1.18 Forge 服务器。我们使用�
 
    游戏需要 Java 17 及以上版本才能运行。如果你不确定系统全局是否安装了 Java，请打开命令行输入 `java -version` 查看输出。
 
-   如果以上命令报错，说明你的系统上没有可用的 Java 运行环境。我推荐 LibericaJDK 21 LTS Full JRE，下载直链：[Windows x86](https://download.bell-sw.com/java/21.0.7+9/bellsoft-jre21.0.7+9-windows-amd64-full.msi) | [MacOS ARM](https://download.bell-sw.com/java/21.0.7+9/bellsoft-jre21.0.7+9-macos-aarch64-full.pkg) | [MacOS x86](https://download.bell-sw.com/java/21.0.7+9/bellsoft-jre21.0.7+9-macos-amd64-full.pkg)
+   如果以上命令报错，说明你的系统上没有可用的 Java 运行环境。我推荐 LibericaJDK 21 LTS Full JRE，下载直链：[Windows x86](https://download.bell-sw.com/java/21.0.7+9/bellsoft-jre21.0.7+9-windows-amd64-full.msi) \| [MacOS ARM](https://download.bell-sw.com/java/21.0.7+9/bellsoft-jre21.0.7+9-macos-aarch64-full.pkg) \| [MacOS x86](https://download.bell-sw.com/java/21.0.7+9/bellsoft-jre21.0.7+9-macos-amd64-full.pkg)
 
 2. 安装 HMCL 启动器
 
-   在你喜欢的位置新建一个文件夹，当作游戏的安装位置。浏览器打开 https://ci.huangyuhui.net/job/HMCL-stable/ 下载那个结尾为 `.jar` 的文件，下载完成后把它移到文件夹里。
+   在你喜欢的位置新建一个文件夹，当作游戏的安装位置。浏览器打开 <https://ci.huangyuhui.net/job/HMCL-stable/> 下载那个结尾为 `.jar` 的文件，下载完成后把它移动到文件夹里。
 
    第一步安装 Java 时，安装器会将 `.jar` 文件注册为可执行文件。此时双击 `HMCL-*.jar` 便可打开启动器。打开启动器可能会一并弹出一个命令行窗口，无视它即可。
 
